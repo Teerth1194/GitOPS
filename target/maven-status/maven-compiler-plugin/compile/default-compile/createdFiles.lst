@@ -1,0 +1,5 @@
+com\reqres\api\utils\configManager.class
+com\reqres\api\constant\Endpoints.class
+com\reqres\api\helpers\userHelper.class
+com\reqres\api\models\User.class
+com\reqres\api\models\userJson.class
