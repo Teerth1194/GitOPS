@@ -15,7 +15,7 @@ public class configManager {
 
         //InputStream inputstream = configManager.class.getClassLoader().getResourceAsStream("C:/Users/teerthp/Documents/Automation/Automation-Local/API_RestAssuredBDDApproach/resources/config.properties");
 
-        FileInputStream inputstream = new FileInputStream("C:\\Users\\teerthp\\Documents\\Automation\\Automation-Local\\API_RestAssuredBDDApproach\\resources\\config.properties");
+        FileInputStream inputstream = new FileInputStream(System.getProperty("user.dir")+"/resources/config.properties");
         prop.load(inputstream);
 
     }
