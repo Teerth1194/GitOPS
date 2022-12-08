@@ -28,7 +28,9 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn clean test
+    - name: Report generation
+      run: mkdir downloads
     - name: Report generation
       uses: actions/upload-artifact@v3
       with:
