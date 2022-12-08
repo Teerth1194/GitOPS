@@ -1,47 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-25T23:50:19 IST" name="Command line suite" finished-at="2022-11-25T23:50:31 IST" duration-ms="12154">
+  <suite started-at="2022-12-08T10:56:51 IST" name="com.reqres.api.test.seleniumWeb" finished-at="2022-12-08T10:57:41 IST" duration-ms="49974">
     <groups>
     </groups>
-    <test started-at="2022-11-25T23:50:19 IST" name="Command line test" finished-at="2022-11-25T23:50:31 IST" duration-ms="12154">
-      <class name="com.reqres.api.test.TestDELETEUser">
-        <test-method signature="testDelete()[pri:0, instance:com.reqres.api.test.TestDELETEUser@797badd3]" started-at="2022-11-25T23:50:19 IST" name="testDelete" finished-at="2022-11-25T23:50:19 IST" duration-ms="10" status="PASS">
+    <test started-at="2022-12-08T10:56:51 IST" name="Command line test" finished-at="2022-12-08T10:57:41 IST" duration-ms="49974">
+      <class name="com.reqres.api.test.seleniumWeb">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.reqres.api.test.seleniumWeb@4fcd19b3]" started-at="2022-12-08T10:56:51 IST" name="setup" finished-at="2022-12-08T10:57:26 IST" duration-ms="34843" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDelete -->
-      </class> <!-- com.reqres.api.test.TestDELETEUser -->
-      <class name="com.reqres.api.test.TestPOSTUser">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.reqres.api.test.TestPOSTUser@c540f5a]" started-at="2022-11-25T23:50:28 IST" name="init" finished-at="2022-11-25T23:50:28 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="automation()[pri:0, instance:com.reqres.api.test.seleniumWeb@4fcd19b3]" started-at="2022-12-08T10:57:26 IST" name="automation" finished-at="2022-12-08T10:57:41 IST" duration-ms="14905" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="createuser()[pri:0, instance:com.reqres.api.test.TestPOSTUser@c540f5a]" started-at="2022-11-25T23:50:28 IST" name="createuser" finished-at="2022-11-25T23:50:30 IST" duration-ms="1825" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createuser -->
-      </class> <!-- com.reqres.api.test.TestPOSTUser -->
-      <class name="com.reqres.api.test.TestGETuser">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.reqres.api.test.TestGETuser@7bb58ca3]" started-at="2022-11-25T23:50:19 IST" name="init" finished-at="2022-11-25T23:50:21 IST" duration-ms="1871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="TestGet()[pri:0, instance:com.reqres.api.test.TestGETuser@7bb58ca3]" started-at="2022-11-25T23:50:21 IST" name="TestGet" finished-at="2022-11-25T23:50:28 IST" duration-ms="7394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestGet -->
-      </class> <!-- com.reqres.api.test.TestGETuser -->
-      <class name="com.reqres.api.test.TestPUTuser">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.reqres.api.test.TestPUTuser@770c2e6b]" started-at="2022-11-25T23:50:30 IST" name="init" finished-at="2022-11-25T23:50:30 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="testPatch()[pri:0, instance:com.reqres.api.test.TestPUTuser@770c2e6b]" started-at="2022-11-25T23:50:30 IST" name="testPatch" finished-at="2022-11-25T23:50:31 IST" duration-ms="913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPatch -->
-      </class> <!-- com.reqres.api.test.TestPUTuser -->
+        </test-method> <!-- automation -->
+      </class> <!-- com.reqres.api.test.seleniumWeb -->
     </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+  </suite> <!-- com.reqres.api.test.seleniumWeb -->
 </testng-results>
